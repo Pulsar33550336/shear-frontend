@@ -16,7 +16,7 @@ import katex from 'katex';
 import 'katex/dist/katex.min.css';
 import { Copy, Hash, Pencil, Save, Trash2 } from 'lucide-react';
 
-const API_BASE_URL = 'http://localhost:8080/api';
+const API_BASE_URL = 'https://clipboard-api.15389097039.workers.dev/api';
 
 const renderer = new marked.Renderer();
 renderer.code = ({ text, lang }) => {
